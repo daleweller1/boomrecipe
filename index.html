@@ -86,7 +86,7 @@
         event.preventDefault(); // prevent the form from refreshing the page
 
         // Get the input value
-        const input = document.querySelector('#recipe-input').value;
+        const input = document.querySelector('#recipe-input').value.trim();
 
         // Show the loading indicator
         document.querySelector('#loading').style.display = 'flex';
