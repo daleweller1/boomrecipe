@@ -103,7 +103,7 @@
           body: JSON.stringify({
             'prompt': 'Recipe for ' + input,
             'model': 'text-davinci-003',
-			'max_tokens': 500
+			'max_tokens': 1000
           })
         })
           .then(response => response.json()) // parse the response as JSON
